@@ -1,0 +1,23 @@
+﻿body {
+}
+ .MyContentBox {
+    border: thick outset;
+    background-color: #ff0080;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    border-radius: 15px;
+    padding:4px 4px;
+}
+ 
+   .MyContentBox:active {
+    border: thick inset #CC33FF;
+}
+
+   .MyButton {
+    background-color: #492c55;
+    font-weight: bolder;
+    font-size: 12px;
+    font-family: Tahoma;
+    color: #EB99FF;
+}

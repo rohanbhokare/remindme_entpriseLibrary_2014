@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="UserSectionMasterPage.master.cs" Inherits="User_UserSectionMasterPage" %>
+<%@ Register Src="~/User/Controls/ucUserHeader.ascx" TagName="UserHeader" TagPrefix="RM" %>
+<%@ Register Src="~/User/Controls/ucUserFooter.ascx" TagName="UserFooter" TagPrefix="RM" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>RemindMe.com</title>
+    <link rel="stylesheet" href="../Style/UserMasterPage.css" />
+    <script type="text/javascript" src="../Scripts/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="../Scripts/jquery-ui-1.11.4.js"></script>
+    <link rel="stylesheet" href="../jQuery Theme/blitzer/jquery-ui.css" />
+    <link rel="stylesheet" href="../jQuery Theme/blitzer/theme.css" />
+    
+    <asp:ContentPlaceHolder id="Head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+
+<body>
+    <div class="WebsiteBody">
+    <form id="form1" runat="server">
+        <asp:ScriptManager id="SP1" runat="server"></asp:ScriptManager>
+              
+        <RM:UserHeader ID="userHeader1" runat="server" />
+        
+        <asp:ContentPlaceHolder id="Body" runat="server">
+        </asp:ContentPlaceHolder>
+        
+        <RM:UserFooter ID="UserFooter1" runat="server" />
+
+    </form>
+        </div>
+</body>
+</html>

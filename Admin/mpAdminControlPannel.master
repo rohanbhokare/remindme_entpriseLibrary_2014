@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="mpAdminControlPannel.master.cs" Inherits="Admin_mpAdminControlPannel" MasterPageFile="~/Admin/MasterPage.master" %>
+
+<asp:Content ID="Content1" runat="server" ContentPlaceHolderID="cphHead">
+<style>
+
+
+    .MyButton {
+        background-color: #492c55;
+        border-style:solid;
+        border-color:#FF0080;
+        font-weight: bolder;
+        font-size: 14px;
+        font-family: Tahoma;
+        color: #EB99FF;
+    }
+</style>
+
+<asp:ContentPlaceHolder ID="mpAdminControlPannelHead" runat="server">
+</asp:ContentPlaceHolder>
+
+
+</asp:Content>
+
+<asp:Content ID="Content2" runat="server" ContentPlaceHolderID="cphBody">
+    <div style="width:45%;text-align:left;float:left;background-color:#f0b2ff;height:24px;">
+          <span class="MyButton"> &nbsp  
+             Last Login:   <%=Convert.ToDateTime(Session["AdminLastAccessedDateTime"]).ToString("ddd,MMM dd yyyy hh:mm:ss tt") %> &nbsp
+          </span>
+    </div>
+    <div style="width:30%;text-align:left;float:left;background-color:#f0b2ff;height:24px;">
+            <asp:Button CssClass="MyButton" ID="btnControlPannel" CausesValidation="false" runat="server" Text="Control Pannel" OnClick="btnControlPannel_Click"></asp:Button>
+    </div>
+    <div style="width:25%;text-align:right;float:right;background-color:#f0b2ff;height:24px;">
+            <asp:Button CssClass="MyButton" ID="btnLogout" runat="server" CausesValidation="false" Text="Logout" OnClick="btnLogout_Click"></asp:Button>
+    </div>
+<asp:ContentPlaceHolder ID="mpAdminControlPannelBody" runat="server">
+</asp:ContentPlaceHolder>
+
+
+</asp:Content>

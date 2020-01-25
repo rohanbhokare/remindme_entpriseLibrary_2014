@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="Admin_MasterPage" EnableTheming="true"  %>
+<%@ Register Src="~/Admin/Controls/wucHeader.ascx" TagPrefix="My" TagName="Header" %>
+<%@ Register Src="~/Admin/Controls/wucFooter.ascx" TagPrefix="My" TagName="Footer" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="../Style/SiteLevelCSS.css" />
+    <script type="text/javascript" src="../Scripts/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="../Scripts/jquery-ui-1.11.4.js"></script>
+    <link rel="stylesheet" href="../jQuery Theme/blitzer/jquery-ui.css" />
+    <link rel="stylesheet" href="../jQuery Theme/blitzer/theme.css" />
+    <asp:ContentPlaceHolder id="cphHead" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+
+
+<body>
+    <div class="WebsiteBody">
+        <form id="form1" runat="server">
+            <asp:ScriptManager ID="sm1" runat="server"></asp:ScriptManager>
+          
+                        <My:Header id="header1" runat="server"></My:Header>
+                        <asp:ContentPlaceHolder id="cphBody" runat="server">
+                        </asp:ContentPlaceHolder>
+                   
+                        <My:Footer id="Footer1" runat="server"></My:Footer>
+                
+        </form>
+    </div>
+</body>
+    
+</html>

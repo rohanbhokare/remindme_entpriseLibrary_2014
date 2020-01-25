@@ -1,0 +1,13 @@
+﻿/* this css is for Login page only */
+.login{
+    background-color:#E680FF;
+    margin:15px 150px;
+    padding:0px;
+  }
+th {
+    text-align:right;
+   }
+td {
+    text-align:left;
+   }
+/*End of login page css*/

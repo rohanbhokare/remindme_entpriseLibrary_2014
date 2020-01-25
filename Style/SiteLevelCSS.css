@@ -1,0 +1,22 @@
+﻿
+body { /*this is for body*/
+    background-color:#E6E6E6;
+    margin:0px;
+    font-family: Tahoma;
+}
+
+.highlightError { /**/
+    background-color:#EB99FF;
+    border-color:#3D004C;
+}
+
+        .WebsiteBody {
+    /* This is for First <div> tag which is placed after <body>tag */
+    margin: 0px 90px;
+    text-align: center;
+    border: 2px solid #661A80;
+    background-color: #f283f7;
+}
+
+
+

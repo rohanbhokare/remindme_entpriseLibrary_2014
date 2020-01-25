@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Corner>
+  <Icon>
+    <url>~/Images/Icon/profile.png</url>
+    <href>MyAccount.aspx</href>
+    <title>My Profile</title>
+    <desc>Review and edit the basics, like your name, login information etc</desc>
+  </Icon>
+  <Icon>
+    <url>~/Images/Icon/reminder.png</url>
+    <href>MyReminder.aspx</href>
+    <title>My Reminder</title>
+    <desc>Add, View and Edit Your Reminders</desc>
+  </Icon>
+  <Icon>
+    <url>~/Images/Icon/facebook.jpg</url>
+    <href>#</href>
+    <title>Connect to facebook</title>
+    <desc>Link your account to Facebook!</desc>
+  </Icon>
+  <Icon>
+    <url>~/Images/Icon/address.png</url>
+    <href>#</href>
+    <title>My Address book</title>
+    <desc>To see and make changes to your Reminders click here</desc>
+  </Icon>
+  <Icon>
+    <url>~/Images/Icon/calendar.png</url>
+    <href>#</href>
+    <title>Birthday Reminder Calender</title>
+    <desc>To see and make changes to your Reminders click here</desc>
+  </Icon>
+  
+</Corner>

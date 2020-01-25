@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/Ads/ad1.jpg</ImageUrl>
+    <AlternateText>Image</AlternateText>     
+    <Keyword>Ads</Keyword>     
+    <Impressions>50</Impressions>   
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Ads/ad2.jpg</ImageUrl>
+    <AlternateText>Image</AlternateText>     
+    <Keyword>Ads</Keyword>     
+    <Impressions>50</Impressions>   
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Ads/ad3.jpg</ImageUrl>
+    <AlternateText>Image</AlternateText>     
+    <Keyword>Ads</Keyword>     
+    <Impressions>50</Impressions>   
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Ads/ad4.jpg</ImageUrl>
+    <AlternateText>Image</AlternateText>     
+    <Keyword>Ads</Keyword>     
+    <Impressions>50</Impressions>   
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Ads/ad5.jpg</ImageUrl>
+    <AlternateText>Image</AlternateText>
+    <Keyword>Ads</Keyword>
+    <Impressions>50</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Ads/ad6.gif</ImageUrl>
+    <AlternateText>Image</AlternateText>
+    <Keyword>Ads</Keyword>
+    <Impressions>50</Impressions>
+  </Ad>
+</Advertisements> 

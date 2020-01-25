@@ -1,0 +1,2 @@
+﻿<asp:TextBox runat="server" style="border:1px solid #c3325f;box-shadow:#c3325f 2px 2px 1px;"> </asp:TextBox>
+<asp:DropDownList runat="server" style="border:1px solid #c3325f;box-shadow:#c3325f 2px 2px 1px;"></asp:DropDownList>

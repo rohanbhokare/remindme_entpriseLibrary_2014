@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="UserMasterPage.master.cs" Inherits="UserMasterPage" %>
+<%@ Register Src="~/Controls/ucUserHead.ascx" TagPrefix="My" TagName="ucHeadUser" %>
+<%@ Register Src="~/Controls/ucUserFooter.ascx" TagPrefix="My" TagName="ucFooterUser" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>RemindMe.com</title>
+    <link rel="stylesheet" href="Style/UserMasterPage.css" />
+    <link rel="stylesheet" href="Style/UserMasterPage.css" />
+    <script type="text/javascript" src="Scripts/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="Scripts/jquery-ui-1.11.4.js"></script>
+    <link rel="stylesheet" href="jQuery Theme/blitzer/jquery-ui.css" />
+    <link rel="stylesheet" href="jQuery Theme/blitzer/theme.css" />
+    
+    <asp:ContentPlaceHolder id="Head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+
+<body>
+    <div class="WebsiteBody">
+    <form id="form1" runat="server">
+        <asp:ScriptManager id="SP1" runat="server"></asp:ScriptManager>
+              
+        <My:ucHeadUser ID="ucHead" runat="server" style="border-bottom:2px dashed #ffc90e " />
+       
+        <asp:ContentPlaceHolder id="Body" runat="server">
+        </asp:ContentPlaceHolder>
+        
+        <My:ucFooterUser ID="ucFooter" runat="server"   />
+    </form>
+        </div>
+</body>
+</html>
